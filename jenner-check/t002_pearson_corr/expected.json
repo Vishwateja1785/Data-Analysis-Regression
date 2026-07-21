@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-21T08:16:22.637988+00:00",
+  "_captured_run_id": "r_a13c18b3c802411db1984f0aa26c88d2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 28 rows from DATALINES.",
+    "NOTE: Wrote heart (28 rows, 21 columns).",
+    "NOTE: Option TITLE changed to Pearson Correlation matrix.",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

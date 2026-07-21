@@ -1,0 +1,38 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA heart
+
+NOTE: Processing inline DATALINES (28 lines)
+
+NOTE: Read 28 rows from DATALINES.
+NOTE: Wrote heart (28 rows, 12 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA heart
+
+
+NOTE: Read 28 rows from heart.
+NOTE: Wrote heart (28 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Test and Train Sets for Heart Failure Prediction dataset.
+NOTE: PROC SURVEYSELECT data=heart
+
+NOTE: PROC SURVEYSELECT completed.
+NOTE: PROC PRINT data=heart_all
+
+NOTE: PROC PRINT completed: 28 observations printed, 23 variables
+NOTE: DATA heart_a
+
+
+NOTE: Read 28 rows from heart_all.
+NOTE: Wrote heart_a (28 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=heart_a
+
+NOTE: PROC PRINT completed: 28 observations printed, 24 variables

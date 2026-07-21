@@ -1,0 +1,73 @@
+                                                       Histogram
+
+                                                The UNIVARIATE Procedure
+                                          Variable:  Age  (age of the patient)
+
+                                                        Moments
+
+N                                 28    Sum Weights                       28
+Mean                       48.285714    Sum Observations         1352.000000
+Std Deviation              10.259078    Variance                  105.248677
+Skewness                    0.262923    Kurtosis                    0.060416
+Uncorrected SS          68124.000000    Corrected SS             2841.714286
+Coeff Variation            21.246611    Std Error Mean              1.938783
+
+          Basic Statistical Measures          
+
+Location             Variability              
+--------  ---------  -------------  ----------
+Mean      48.285714  Std Deviation   10.259078
+Median    48.500000  Variance       105.248677
+Mode      49.000000  Range           44.000000
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min      29.000000
+1%          29.000000
+5%          31.000000
+10%         35.000000
+25% Q1      40.000000
+50% Median  48.500000
+75% Q3      54.500000
+90%         63.000000
+95%         64.000000
+99%         73.000000
+100% Max    73.000000
+
+          Extreme Observations          
+
+Lowest               Highest            
+--------  ---------  --------  ---------
+Value     29.000000  Value     57.000000
+Value     31.000000  Value     61.000000
+Value     35.000000  Value     63.000000
+Value     38.000000  Value     64.000000
+Value     38.000000  Value     73.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.986744756  0.970289672
+Kolmogorov-Smirnov  0.079389026  0.988483865
+Anderson-Darling    0.155505545      0.15
+Cramer-von Mises    0.023507797  0.993376995
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         24.905160952         0
+Sign                       14  0.000000007
+Signed Rank               406  0.000003794

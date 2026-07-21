@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_heart_import_freq",
+  "source_file": "Data Analysis & Regression.sas",
+  "source_blob_sha": "8624d74954160f62a8b16073fbf486921879c0c4",
+  "source_commit": "9fe0351e87cf73a6ad90cc09f9befddebc89b9cf",
+  "notes": "Repo DATA step + PROC PRINT/CONTENTS/FREQ. heart.csv replaced by a 28-row inline sample (balanced 14/14 HeartDisease) read via infile datalines dlm=\",\"; indicator vars and labels verbatim from the source."
+}
