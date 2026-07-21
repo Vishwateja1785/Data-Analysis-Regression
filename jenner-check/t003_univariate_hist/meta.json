@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_univariate_hist",
+  "source_file": "Data Analysis & Regression.sas",
+  "source_blob_sha": "8624d74954160f62a8b16073fbf486921879c0c4",
+  "source_commit": "9fe0351e87cf73a6ad90cc09f9befddebc89b9cf",
+  "notes": "Repo PROC UNIVARIATE with normal-fit histogram on Age, verbatim. 28-row inline sample of heart.csv."
+}

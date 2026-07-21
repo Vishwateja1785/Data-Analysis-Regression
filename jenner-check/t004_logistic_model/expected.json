@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-21T08:16:22.637988+00:00",
+  "_captured_run_id": "r_bb388f8b6d804c4d932d5b7c85c2afdc",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 28 rows from DATALINES.",
+    "NOTE: Option TITLE changed to Full Model - Standardized coefficients(stb) and rsquare.",
+    "NOTE: PROC LOGISTIC data=heart",
+    "NOTE: PROC LOGISTIC completed. Results written to: ./ods_output/logistic_results.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,72 @@
+                                Full Model - Standardized coefficients(stb) and rsquare
+
+                                     
+---------------------------  --------
+Number of Observations Read        28
+Number of Observations Used        28
+
+              Response Profile              
+  Probability modeled is HeartDisease='1'   
+
+Ordered Value  HeartDisease  Total Frequency
+-------------  ------------  ---------------
+            1  0                          14
+            2  1                          14
+
+                                    
+------------------------------------
+WARNING: The model did not converge.
+
+                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+WARNING: There is possibly a quasi-complete separation of data points. The maximum likelihood estimate may not exist.
+
+The LOGISTIC Procedure
+Response Variable: HeartDisease output class [1: heart disease, 0: Normal]
+
+Criterion     Value
+---------  --------
+AIC          44.016
+-2 Log L     12.016
+SC           65.331
+
+                        Analysis of Maximum Likelihood Estimates                         
+
+Parameter    Estimate  Standard Error  Wald Chi-Square  Pr > ChiSq  Standardized Estimate
+-----------  --------  --------------  ---------------  ----------  ---------------------
+Intercept     -3.5057         11.1879           0.0982      0.7540                      .
+Age           -0.0051          0.0991           0.0026      0.9590                -0.0288
+Sex_Male      -0.7965          1.8047           0.1948      0.6589                -0.2089
+CP_ASY         2.0441          3.7151           0.3027      0.5822                 0.5724
+CP_ATA         1.2202          4.5142           0.0731      0.7869                 0.3095
+CP_NAP         2.8924          4.1948           0.4754      0.4905                 0.5683
+RestingBP      0.0046          0.0343           0.0179      0.8936                 0.0513
+Cholesterol   -0.0047          0.0090           0.2739      0.6007                -0.3260
+FastingBS      0.6722          3.1358           0.0460      0.8303                 0.1549
+ECG_LVH        0.8583          3.8939           0.0486      0.8256                 0.0894
+ECG_Normal    -0.0276          2.3828           0.0001      0.9908                -0.0059
+MaxHR          0.0090          0.0377           0.0574      0.8106                 0.1180
+Angina_Yes     0.9935          1.9819           0.2513      0.6162                 0.2605
+Oldpeak        0.5300          1.2117           0.1914      0.6618                 0.2668
+Slope_Down     0.0000       1000.0000           0.0000      1.0000                 0.0000
+Slope_Flat     1.2676          1.6453           0.5935      0.4411                 0.3522
+
+                                                Odds Ratio Estimates                                                 
+
+Effect                                                           Point Estimate  95% Wald CL Lower  95% Wald CL Upper
+---------------------------------------------------------------  --------------  -----------------  -----------------
+age of the patient                                                        0.995              0.819              1.208
+sex of the patient [1: male]                                              0.451              0.013             15.497
+chest pain type [1: Asymptomatic]                                         7.722              0.005          11221.451
+chest pain type [1: Atypical Angina]                                      3.388              0.000          23574.795
+chest pain type [1: Non-Anginal Pain]                                    18.036              0.005          67112.192
+resting blood pressure                                                    1.005              0.939              1.074
+serum cholesterol                                                         0.995              0.978              1.013
+fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]           1.959              0.004            914.430
+resting electrocardiogram results [1: LVH]                                2.359              0.001           4867.064
+resting electrocardiogram results [1: Normal]                             0.973              0.009            103.809
+maximum heart rate achieved                                               1.009              0.937              1.086
+exercise-induced angina [1: Yes]                                          2.701              0.056            131.364
+oldpeak = ST  [Numeric value measured in depression]                      1.699              0.158             18.264
+slope of the peak exercise ST segment [1: Down]                           1.000              0.000                  .
+slope of the peak exercise ST segment [1: flat]                           3.552              0.141             89.328
